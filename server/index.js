@@ -24,7 +24,7 @@ app.options('/localhost:8000', (req, res) => {
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE'); // List of allowed methods
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // List of allowed headers
     res.status(204).send();
-  });
+});
 
 app.use('/', Routes);
 
