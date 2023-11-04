@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<ForInterview />} />
-        <Route path="all" element={<AllUser /> } />
+        <Route path="/all" element={<AllUser /> } />
         <Route path="/add" element={<AddUser />} />
         <Route path="/edit/:id" element={<EditUser />} />
         <Route path='/*' element={<NotFound />} />
