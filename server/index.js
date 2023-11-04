@@ -26,7 +26,7 @@ app.options('/localhost:8000', (req, res) => {
     res.status(204).send();
 });
 
-app.use('/', Routes);
+app.use('https://crud-app-avishka.onrender.com', Routes);
 
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
